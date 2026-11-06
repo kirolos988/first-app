@@ -3,6 +3,17 @@ import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
+import UserCard from "./UserCard";
+
+function App() {
+  return (
+    <>
+      <div>
+        <UserCard name="Ahmed Ali" />
+      </div>
+    </>
+  );
+}
 
 function App() {
   const [count, setCount] = useState(0)
